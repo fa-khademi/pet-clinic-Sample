@@ -1,7 +1,7 @@
 package com.irisaco.petclinicsample.repositories;
 
 import com.irisaco.petclinicsample.model.PetType;
-import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.repository.CrudRepository;
 
-public interface PetTypeRepository extends JpaRepository<PetType , Long> {
+public interface PetTypeRepository extends CrudRepository<PetType , Long> {
 }

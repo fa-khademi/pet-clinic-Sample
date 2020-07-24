@@ -1,7 +1,7 @@
 package com.irisaco.petclinicsample.repositories;
 
 import com.irisaco.petclinicsample.model.Owner;
-import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.repository.CrudRepository;
 
-public interface OwnerRepository extends JpaRepository<Owner, Long> {
+public interface OwnerRepository extends CrudRepository<Owner, Long> {
 }
